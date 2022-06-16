@@ -1,0 +1,103 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.footer-div{
+  padding-top:6px;
+  background-image: linear-gradient(to bottom, #43cea2, #00b5b3, #0099bb, #007ab4, #185a9d);
+  height: 43px;
+  color: aliceblue;
+}
+
+.footer-div-dark{
+  padding-top:6px;
+  background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+  height: 43px;
+  color: rgb(168, 193, 215);
+}
+
+.form-check-input{
+  margin-left: 150px;
+}
+
+.sun-logo{
+  color: rgb(242, 242, 89);
+  padding-right: 5px;
+}
+
+.moon-logo{
+  padding-right: 13px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(to top, #43cea2, #00b5b3, #0099bb, #007ab4, #185a9d);
+  min-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header-dark {
+  background-color: #7f5a83;
+  background-image: linear-gradient( 315deg, #7f5a83 0%, #0d324d 74%);
+  /* background-image: linear-gradient(to top, #43cea2, #00b5b3, #0099bb, #007ab4, #185a9d); */
+  min-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(168, 193, 215);
+}
+
+.heading{
+  margin-top: 40px;
+  margin-bottom: 5%;
+}
+.input-box{
+  display: flex;
+  margin-bottom: 20px;
+  
+  
+}
+.input-box>button{
+  margin-left: 10px;
+}
+
+.spandiv{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.btn{
+  color: aliceblue;
+}
+h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
